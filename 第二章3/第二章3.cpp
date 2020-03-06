@@ -10,7 +10,7 @@ int main()
 {
 	cv::Mat dispMat = imread("D:\\2.png");
 	cv::Rect rect;
-	cv::line(dispMat, cv::Point(20,200), cv::Point(20,200), CV_RGB(255, 0, 0), 1, 8, 0);
+	cv::line(dispMat, cv::Point(20,200), cv::Point(50,200), CV_RGB(255, 0, 0), 1, 8, 0);
 	rect.x = 10;
 	rect.y = 10;
 	rect.width=100;
